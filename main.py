@@ -1,6 +1,6 @@
 import requests
 from os import mkdir, listdir
-from os.path import exists, isfile, join, sep, splitext
+from os.path import exists, isfile, join, splitext
 from fetch_spacex import fetch_spacex_last_launch
 from fetch_huble import fetch_huble_collection
 from insta_publish import publish_on_instagram
